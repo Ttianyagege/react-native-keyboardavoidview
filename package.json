@@ -1,5 +1,5 @@
 {
-  "name": "react-native-keyboardavoidingview",
+  "name": "react-native-keyboardavoidview",
   "version": "1.0.0",
   "description": "React-Native 兼容IOS、Android客户端的Form表单防止键盘遮挡组件",
   "main": "index.js",
@@ -8,6 +8,10 @@
   },
   "author": "fantao.meng",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengft/react-native-keyboardavoidview.git"
+  },
   "dependencies": {
     "react": "16.4.1",
     "react-native": "0.56.0",
