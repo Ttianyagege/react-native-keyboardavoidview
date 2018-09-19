@@ -1,6 +1,10 @@
 # react-native-keyboardavoidview
 基于React Native封装的表单提交Container，用于替代RN官方组件KeyboardAvoidingView(不兼容Android)
 
+## Theory
+
+重写TextInput的onFocus方法，借助ScrollView的scrollResponderScrollNativeHandleToKeyboard实现屏蔽键盘遮挡FormItem的情况。
+
 ## Installation
 
 ```bash
